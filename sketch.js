@@ -42,6 +42,8 @@ function draw() {
     text("Your lasers have a cooldown before shooting again.",300,350)
     text("Press Space to begin",300,400)
     text("Good Luck.",600,400)
+    textSize(30)
+    text("Space Fighter",450,100)
 
     if(keyDown("space")){
       gamestate = "play"
